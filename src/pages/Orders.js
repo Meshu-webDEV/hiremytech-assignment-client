@@ -49,23 +49,6 @@ const Orders = () => {
               <h3 className="fw-normal mb-0 text-black">Orders</h3>
             </div>
             {renderOrders()}
-            <div className="card">
-              <div className="card-body d-flex flex-row-reverse">
-                <button
-                  // onClick={handleCheckOut}
-                  type="button"
-                  className="btn btn-info fw-medium btn-block btn"
-                >
-                  Checkout
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-outline-info fw-medium btn-block btn mx-4"
-                >
-                  Continue shopping
-                </button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
