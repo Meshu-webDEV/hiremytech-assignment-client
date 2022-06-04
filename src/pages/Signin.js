@@ -98,7 +98,7 @@ const Signin = () => {
                       type="button"
                       className="btn btn-info btn-block btn text-white text-xs"
                     >
-                      Sign up{" "}
+                      Sign in{" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         style={{ width: "20px" }}
@@ -115,10 +115,10 @@ const Signin = () => {
                   </div>
 
                   <p className="text-center text-muted text-2xs mt-5 mb-0">
-                    Already have an account?{" "}
-                    <Link to="/sign-in" href="#!" className="fw-bold text-body">
+                    Don't have an account?{" "}
+                    <Link to="/sign-up" href="#!" className="fw-bold text-body">
                       <span className="text-xs text-decoration-underline">
-                        Sign-in here
+                        Sign-up here
                       </span>
                     </Link>
                   </p>

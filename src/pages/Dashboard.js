@@ -72,7 +72,7 @@ const Dashboard = () => {
           >
             My orders
           </Link>
-          {user.authority.authority === 2 && (
+          {user?.authority?.authority === 2 && (
             <Link
               to="/dashboard/items"
               className="btn btn-warning d-flex justify-content-center mb-4 text-black"
@@ -82,7 +82,7 @@ const Dashboard = () => {
           )}
         </div>
 
-        {user.authority.authority !== 3 && (
+        {user?.authority?.authority !== 3 && (
           <div className="col-12 col-md-9 col-lg-7 col-xl-6">
             <div className="card" style={{ borderRadius: "15px" }}>
               <div className="card-body py-3 px-5">
